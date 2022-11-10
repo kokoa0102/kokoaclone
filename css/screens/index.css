@@ -1,0 +1,51 @@
+.index-header{
+    margin: 90px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index-header__title{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.index-header__text{
+    width: 60%;
+    opacity: 0.6;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+.text{
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 15px 0px;
+    font-size: 18px;
+    transition: border-color 0.5s ease-in-out;
+}
+#login-form input::placeholder{
+    color: rgba(0,0,0,0.4)
+}
+.text:focus{
+    border-color: var(--yellow);
+}
+.text:not([placeholder="Email or phone number"]){
+    margin-bottom: 30px;
+}
+.btn{
+    border: none;
+padding: 13px 0px;
+margin-bottom: 10px;
+font-size: 16px;
+border-radius: 5px;
+}
+.btn:hover{
+    background-color: var(--yellow);
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 15px;  
+}
