@@ -1,0 +1,44 @@
+.setting {
+    padding: 15px 0px;
+}
+.setting-list {
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(166, 166, 166, 0.3);
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+}
+.setting-list__column {
+    display: flex;
+    align-items: center;
+}
+.setting-list__column i {
+    margin-right: 15px;
+}
+.setting-list__column span {
+    font-size: 20px;
+}
+.st {
+    opacity: 0.3;
+}
+.bl {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 40px;
+}
+.set-badge__rel {
+    position: relative;
+}
+.set-badge {
+    background-color: rgb(255, 77, 17);
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    position: absolute;
+    right: -23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}

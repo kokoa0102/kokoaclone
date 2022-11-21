@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px var(--horizontal-space);
+    padding: 0px var(--horizontal-space);
+    padding-right: 0px;
     position: static;
     width: 100%;
     box-sizing: border-box;
+    margin: 15px 0px;
 }
 .header__title {
     font-size: 30px;
@@ -15,4 +17,20 @@
 .header__icon span {
     margin-right: 20px;
     color:#2e3b3e;
+}
+.header__icon a {
+    margin-right: 20px;
+    color:#2e3b3e;
+}
+.fa-gear {
+    position: relative;
+}
+.gear-point {
+    background-color: rgb(255, 77, 17);
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    position: absolute;
+    top: -15px;
+    left: 20px;
 }
